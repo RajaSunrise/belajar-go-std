@@ -19,7 +19,7 @@ func main() {
 
 	go func() {
 		time.Sleep(2 * time.Second)
-		cancel() // Membatalkan operasi setelah 2 detik
+		cancel() // Membacalkan operasi setelah 2 detik
 	}()
 
 	select {
